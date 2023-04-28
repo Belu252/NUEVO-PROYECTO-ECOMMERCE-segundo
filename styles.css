@@ -250,7 +250,7 @@ body {
 }
 
 .main {
-    background-color: #ffffff;
+    background-color: #f7ca90;
     display: flex;
     width: 100%;
 }
@@ -315,8 +315,9 @@ h2 {
 .btn-producto:hover {
     background-color:#85641d;
 }
-.card{
-    width: 25px;
+  
 
-}
  
+.card-container .card{
+    width: 25%;
+}
