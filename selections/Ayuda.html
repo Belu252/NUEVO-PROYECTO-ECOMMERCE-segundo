@@ -32,10 +32,10 @@
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <li><a class="dropdown-item" href="Productos.html">Productos</a></li>
-                            <li><a class="dropdown-item" href="#">Pulseras</a></li>
-                            <li><a class="dropdown-item" href="#">Collares</a></li>
-                            <li><a class="dropdown-item" href="#">Anillos</a></li>
-                            <li><a class="dropdown-item" href="#">Adicionales</a></li>
+                            <li><a class="dropdown-item" href="Productos.html#Pulseras">Pulseras</a></li>
+                            <li><a class="dropdown-item" href="Productos.html#Collares">Collares</a></li>
+                            <li><a class="dropdown-item" href="Productos.html#Anillos">Anillos</a></li>
+                            <li><a class="dropdown-item" href="Productos.html#Adicionales">Adicionales</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
@@ -46,7 +46,8 @@
             </div>
         </div>
     </nav>
-    <h1 class="msje d-flex mx-2 text-uppercase fs-4  ">Recibí novedades, no te pierdas de nada!</h1>
+   <img src="../images/formulario.jpg"  alt="" class="responsive-img">
+    <!-- <h1 class="msje d-flex mx-2 text-uppercase fs-4  ">Recibí novedades, no te pierdas de nada!</h1> -->
     <div class="mb-3">
         <label for="exampleFormControlInput1" class="form-label">Nombre</label>
         <input type="nombre" class="form-control" id="exampleFormControlInput1" placeholder="Ingrese su nombre">
@@ -116,8 +117,36 @@
                 <div class="col-md-3 mb-5">
                     <h2>Sobre AnnacShine</h2>
                     <p>Empresa de accesorios para embellecer más cada rasgo de nuestras clientas.</p>
-                    <p><a href="http://127.0.0.1:5500/NUEVO-PROYECTO-ECOMMERCE/selections/Ayuda.html">Click para leer
-                            mas</a></p>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn  btn-producto" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Clic para leer mas
+                      </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Sobre Nosotros</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    Somos mucho más que una marca, somos una comunidad que comparte amistad e ilusión y
+                                    estamos del lado de la vida de los que creen que todo es mejor con buena vibra.
+                                    Nuestro propósito es potenciar tu personalidad para que seas quien quieras ser y que
+                                    puedas contarle al mundo lo que tienes para decir.
+                                    Queremos que junt@s seamos protagonistas del cambio y amamos la idea de poder
+                                    construir juntos un futuro mejor.
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn  btn-producto"
+                                        data-bs-dismiss="modal">Close</button>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="col-md-3 mb-5">
@@ -134,17 +163,16 @@
                         </li>
                     </ul>
                 </div>
+
                 <div class="col-md-3 mb-5">
                     <h2>Nuestra Página</h2>
                     <ul class="list-unstyled footer-link">
-                        <li><a href="http://127.0.0.1:5500/NUEVO-PROYECTO-ECOMMERCE/index.html#">Home</a></li>
-                        <li><a
-                                href="http://127.0.0.1:5500/NUEVO-PROYECTO-ECOMMERCE/selections/Productos.html">Productos</a>
-                        </li>
-                        <li><a href="http://127.0.0.1:5500/NUEVO-PROYECTO-ECOMMERCE/selections/Ayuda.html">Ayuda</a>
-                        </li>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="Productos.html">Productos</a></li>
+                        <li><a href="Ayuda.html">Ayuda</a></li>
                     </ul>
                 </div>
+
 
                 <div class="col-md-3">
                     <h2>Redes Sociales</h2>

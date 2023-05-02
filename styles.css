@@ -314,10 +314,16 @@ h2 {
 
 .btn-producto:hover {
     background-color:#85641d;
+    border: 1px solid #f1c867;
 }
   
 
  
 .card-container .card{
     width: 25%;
+}
+
+.responsive-img{
+    width: 100%;
+    height: auto;
 }
